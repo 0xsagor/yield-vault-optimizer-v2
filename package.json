@@ -1,0 +1,18 @@
+{
+  "name": "yield-vault-optimizer",
+  "version": "2.0.0",
+  "description": "Auto-compounding strategy for EVM",
+  "main": "harvester.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "dotenv": "^16.0.3",
+    "chalk": "^4.1.2",
+    "@openzeppelin/contracts": "^4.8.0",
+    "hardhat": "^2.13.0"
+  },
+  "license": "MIT"
+}
